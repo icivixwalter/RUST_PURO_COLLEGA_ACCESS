@@ -1,0 +1,456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fn",
+				"file_name"
+			],
+			[
+				"b",
+				"body"
+			],
+			[
+				"ba",
+				"backups"
+			],
+			[
+				"NOTE",
+				"NoteAtto_s"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package contro",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"TERM",
+				"Terminal (panel)"
+			],
+			[
+				"COMMI",
+				"Set Syntax: Git Commit"
+			],
+			[
+				"su",
+				"Sublime Merge: Open Repository"
+			],
+			[
+				"sub",
+				"Sublime Merge: Blame File"
+			],
+			[
+				"git",
+				"Set Syntax: Git Commit"
+			],
+			[
+				"sublime ",
+				"Sublime Merge: Blame File"
+			],
+			[
+				" git Commit",
+				"Set Syntax: Git Commit"
+			],
+			[
+				"mar",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"mark",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"mad",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markwon pre",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"markdown open",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"open resor",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"PakageResourceView ",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"viewopne ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"view",
+				"View Package File"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"veiw",
+				"View Package File"
+			],
+			[
+				" colo",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+			"git status",
+			"dir"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/CASA/PROGRAMMI/RUST_ACCESS/rust_access/Cargo.toml",
+		"/C/CASA/PROGRAMMI/RUST_TAURI/tauri_sqlite_NON_FUNZIONA/src-tauri/src/main.rs",
+		"/C/CASA/PROGRAMMI/RUST_TAURI/tauri_sqlite_NON_FUNZIONA/src/lib/Greet.svelte",
+		"/C/CASA/PROGRAMMI/RUST_TAURI/tauri_sqlite_NON_FUNZIONA/src/main.ts",
+		"/C/CASA/PROGRAMMI/RUST_TAURI/tauri_sqlite_NON_FUNZIONA/src/App.svelte",
+		"/F/CASA/CDM/LeTorri/2022/LeTorri_EMAIL.md",
+		"/F/CASA/CDM/LeTorri/2022/2022_12_16_MEMO_ASSEMBLEA_STRAORDINARIA.MD",
+		"/F/CASA/LINGUAGGI/RUST/PROGETTI/first_rust/first_rust/src/main.rs",
+		"/C/CASA/PROGRAMMI/WINDOWS/SERVIZI/2022_12_25_ServiziPcLocale3 - Copia.csv",
+		"/C/CASA/PROGRAMMI/WINDOWS/SERVIZI/2022_12_25_ServiziPcLocale.csv",
+		"/F/CASA/CDM/LeTorri/2022/ASSEMBLEA_STRAORDINARIA_2022_12_16/2022_12_16_MEMO_ASSEMBLEA_STRAORDINARIA.MD",
+		"/C/CASA/CDM/LeTorri/2022/2022_12_16_ASSEMBLEA_STRAORDINARIA/2022_12_16_MEMO_ASSEMBLEA_STRAORDINARIA.MD",
+		"/F/CASA/PROGRAMMI/FIRE_FOX/EDGE/Password di Microsoft Edge.csv",
+		"/C/CASA/WinRAR/WIN_RAR_BAT/WIN_RAR_HELP/ZIP_RAR_MANUALI/RAR_MANUALE_ITALIANO.MD",
+		"/C/CASA/CDM/LeTorri/2022/ASSEMBLEA_STRAORDINARIA_2022_12_16/2022_12_16_MEMO_ASSEMBLEA_STRAORDINARIA.MD",
+		"/C/Users/icivi/Desktop/TasKill_N51_KILL_SOLO_PROCESSI.bat",
+		"/C/Users/icivi/Desktop/KEEPASS_BACKUP.bat",
+		"/C/TMP/Password di Microsoft Edge.csv",
+		"/C/Users/icivi/Desktop/TasKill_N51_KILL_SOLO_RuntimeBroker3.bat",
+		"/C/CASA/WinRAR/WIN_RAR_BAT/WIN_RAR_HELP/README.md",
+		"/C/CASA/WinRAR/WIN_RAR_BAT/WIN_RAR_HELP/.gitignore",
+		"/C/CASA/WinRAR/WIN_RAR_BAT/ZIP_RAR_MANUALI/RAR_MANUALE_ITALIANO.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/AGGIORNAMENTI/ANAGR_STORICO_OPERAZIONI.md",
+		"/c/TMP/TUTTE_LE_FORM_ANAGRAFICHE.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_ELENCO_ObjProgetti_Qry15_01_GROUP_TIPO_OGGETT.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_ELENCO_ObjProgetti_Qry60_UPDATE_PROGETTO_s.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/FORM_MSYS/MSYS_TUTTE_LE_FORM.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_TABELLE_Qry01_01_SELECT_TUTTE.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_FORMS_Qry01_71_INSERT_toMsys_DF12.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_DF10_DATABASE_Qry01_01_SELECT_TUTTI_Current.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_MCLASSI_Qry01_71_INSERT_toMsys_DF12.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiCLASSI.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_QUERY_Qry01_01_SELECT_TUTTE.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_MACRO_Qry01_01_SELECT_TUTTI.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_MODULI_Qry01_01_SELECT_TUTTI.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_REPORT_Qry01_01_SELECT_TUTTE.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_FORMS_Qry01_01_SELECT_TUTTE.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_QUERY_Qry01_01_SELECT_TUTTE_CurrentProject.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_CLASSI.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/FORM_ANAGRAFICA/TUTTE_LE_FORM_ANAGRAFICHE.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/Msys_DF11_Qry01_01_PROGETTI.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/PDF_FILE_HELP/Msys_DF11_PROGETTI_Frm00_M01_GESTIONE_HELP.bat",
+		"/C/CASA/CDM/LaQuercia/2021_2022/LINK/0027834642_CCO_XLM_CSV_16672364100151R8PW2K.CSV",
+		"/C/Users/icivi/AppData/Local/Temp/Temp1_0027834642_CCO_XLM_CSV_16672357425591QFOW2K.zip/0027834642_CCO_XLM_CSV_16672357425591QFOW2K.CSV",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/FAQ/MENU_Come_Impostare_Menu_In_CMB.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiFORM.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_MODULI_Qry01_71_INSERT_toMsys_DF12.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/FORM_MSYS/MENU_Come_Impostare_Menu_In_CMB.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_TABELLE_Qry01_71_INSERT_toMsys_DF12.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_MACRO_Qry01_71_INSERT_toMsys_DF12.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_MCLASSI_Qry01_71_INSERT_toMsys_DF12.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_QUERY_Qry01_71_INSERT_toMsys_DF12.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_REPORT_Qry01_71_INSERT_toMsys_DF12.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/MENU_ANAGRAFICA/10_OGGETTI_ANAGRAFICA_ApriProgettiTutti.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/MENU_ANAGRAFICA/1_ANALISI_PROGETTO_ANAGRAFICA.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_FORM.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_QUERY.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_MACRO.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_MODULI.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiTABLE.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiMACRO.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiMODULI.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiQUERY.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiREPORT.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_REPORT.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/OGGETTI_MSYS_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_TABELLE.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/AGGIORNAMENTI/ANAG_MsysQry01_01_SELECT_OggettiQUERY.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/TABELLE_MSYS/MSys_TUTTI_PROG",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/TABELLE_MSYS/MSys_MODULI.MD",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MySys_AGGIORNAMENTI.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_TUTTI_PROG_SELECT_Qry01_01_PROGETTI.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_TABELLE_TMP_Qry01_01_SELECT_TUTTE.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_TABELLE_Qry01_01_SELECT_CurrentProject.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_MODULI_Qry01_71_INSERT_toMsys_DF12.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/ANALISI_PROGETTO/ANAGR_ANALISI_PROGETTO.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_DF01_PARAMETRI_INDIV.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysQUERY_Qry01_01_SELECT_TUTTE.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysTABLE_Qry01_01_SELECT_OggettiTabella.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_TB01_PROPRIETARI_Qry01_01_TUTTI.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/TABELLE_ANAGRAFICA/ANAG_DF01_PARAMETRI_INDIV.TXT",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/TABELLE_ANAGRAFICA/ANAG_TB01_PROPRIETARI.txt",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/TABELLE_ANAGRAFICA/ANAG_TB03_PROPRIETA_CONDOMINIALI.txt",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiFORM.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysQry01_01_SELECT_OggettiMODULI.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysFORM_Qry01_01_SELECT_OggettiFORM.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/FORM_ANAGRAFICA/ANAG_MsysFORM_S01_OGGETTI_FORM.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/FORM_ANAGRAFICA/MSys_MODULI_Qry01_71_INSERT_toMsys_DF12.md",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/MSYS_SUBLIME_TEXT_ANALISI/QUERY_MSYS/MSys_TABELLE_TMP_Qry00_}-------------------------------------@.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/.jsbeautifyrc",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysMODULI_Qry01_01_SELECT_OggettiMODULI.MD",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_TABELLE_Qry01_01_SELECT_TUTTE.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysFORM_Qry01_S01_SELECT_TUTTE.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/QUERY_MODELLO_STRUTTURA.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/ANAGR_SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_MsysQUERY_Qry01_}-----------------------------------------@.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/FORM_ANAGRAFICA/TUTTE_LE_FORM_ANAGRAFICHE.MD",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/ANALISI_PROGETTO/ANAGR_ANALISI_PROGETTO.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/AGGIORNAMENTI/ANAGR_STORICO_OPERAZIONI.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/PROGETTO_ANAGRAFICA/PROGETTO_ANAGRAFICA_(codice_ANAGR).md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/AGGIORNAMENTI/MySys_AGGIORNAMENTI.TXT",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/FORM_ANAGRAFICA/TUTTE_LE_FORM_ANAGRAFICHE.txt",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/ANAG_DF01_PARAMETRI_INDIV.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/Msys_DF11_Qry01_01_PROGETTI.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_TABELLE_Qry01_01_SELECT_CurrentProject.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/ANALISI_PROGETTO/ANAGR_ANALISI_}===================================@.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_TUTTI_PROG_SELECT_Qry01_01_PROGETTI.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_TABELLE_TMP_Qry01_01_SELECT_TUTTE.md",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/QUERY_ANAGRAFICA/MSys_TABELLE_Qry01_01_SELECT_CurrentProject",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_ANALISI/SUBLIME_TEXT_ANALISI/PROGETTO_ANAGRAFICA/PROGETTO_ANAGRAFICA_(codice_ANAGR).txt",
+		"/C/CASA/CDM/GE_CDM/ANAGR/ANAGR_QUERY_ROUTINE_MODULI_CLASSI/CALCOLATORI RISK",
+		"/C/CASA/CDM/GE_CDM/MSYS/MSYS_ANALISI/SUBLIME_TEXT_ANALISI/MSYS_ANALISI_PROGETTO_ESPORTABILE.MD",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/READ_ME_HTML.MD",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/ESEMPI_HTLM/HTLM_ESEMPIO_CasellaCombinata_Opzioni.html",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/POWERSCHELL/POWERSHELL_TUTORIAL.MD",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/ESEMPI_JAVASCRIPT/JavaScript_ESEMPIO_Image_Slider.css",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/ESEMPI_JAVASCRIPT/JavaScript_ESEMPIO_Image_Slider.html",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/ESEMPI_JAVASCRIPT/JavaScript_ESEMPIO_Image_Slider.js",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/PackageResourceViewer.sublime-settings",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/PackageResourceViewer/README.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/CDM_TAB_CONTROL.js",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/CDM_TAB_CONTROL.html",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/CDM_TAB_CONTROL.css",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Default (Windows).sublime-keymap",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/CSS_ESEMPIO_AA_MODELLO.html",
+		"/C/CASA/LINGUAGGI/HTML/TUTORIAL_HTML/JavaScript_ESEMPIO_BUTTON_CLICK.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 178.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "Cargo.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\icivi\\AppData\\Roaming\\Sublime Text\\Packages\\HTML-CSS-JS Prettify\\Default (Windows).sublime-keymap"
+			],
+			[
+				"co",
+				"C:\\Users\\icivi\\AppData\\Roaming\\Sublime Text\\Packages\\Color Scheme - Default.sublime-package"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\CASA\\CDM\\LaQuercia\\2021_2022\\DOC\\RELAZIONE_DI_GESTIONE\\PROJECT_RELAZIONE_DI_GESTIONE.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 257.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 383.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
