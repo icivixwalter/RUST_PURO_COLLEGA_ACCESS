@@ -1,0 +1,339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"subl",
+				"SUBLIME_TEXT"
+			],
+			[
+				"w",
+				"white3"
+			],
+			[
+				"whi",
+				"white2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Cargo.toml",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ope",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"open",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"open termina",
+				"Preferences: Terminal OS Specific Settings"
+			],
+			[
+				"open te",
+				"Terminal: Open"
+			],
+			[
+				"",
+				"Build: New Build System"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 231.0,
+		"history":
+		[
+			"cmd",
+			"dir"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/prova_connessione",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/prova_connessione/src"
+	],
+	"file_history":
+	[
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/prova_connessione/src/main.rs",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/prova_connessione/Cargo.toml",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/prova_connessione/Originali/main_ORIGINALE.md",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/html_collega_access/src/main.rs",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/html_collega_access/Cargo.toml",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/html_collega_access/src/main_FUNZIONANTE.md",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/html_collega_access/src/Cargo_FUNZIONANTE.md",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/cmd_collega_access/src/main.rs",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/EsempioStudenti.accdb",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/Cargo.toml",
+		"/C/CASA/LINGUAGGI/RUST_PROGETTI/RUST_PURO/RUST_PURO_COLLEGA_ACCESS/src/main.rs",
+		"/C/CASA/LTT/ANALISI/RUST_LTT/ApriSorgenti_MDB/sorg_mdb/src/main.rs",
+		"/C/CASA/LTT/ANALISI/RUST_LTT/ApriSorgenti_MDB/apri_sublime_text/src/main.rs",
+		"/C/CASA/LTT/AVVIO_LTT_SU_DISCO_C_(Sorgenti_Mdb).BAT",
+		"/C/CASA/LTT/APRI_SublimeTex.bat",
+		"/C/CASA/LTT/ANALISI/SUBLIME_TEXT/SublimeText_Analisi/BAT/APRI_ANALISI_SublimeTex.bat",
+		"/C/CASA/LTT/ANALISI/SUBLIME_TEXT/SublimeText_Analisi/BAT/APRI_GESTIONI_SORG_(IN_MIGLIORAMENTO)_MDB.bat",
+		"/C/CASA/LTT/ANALISI/SUBLIME_TEXT/SublimeText_Analisi/LTT_ANALISI.MD",
+		"/C/CASA/LTT/APRI_GESTIONI_SORG_MDB.bat",
+		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/Lotto_Progetto/Lotto_Progetto.md",
+		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/FORM/AMB_Frm01_S01_ARCHIVIO/AMB_Frm01_S01_ARCHIVIO.md",
+		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/LTT_ANALISI.MD",
+		"/C/CASA/LTT/ANALISI/LTT_OPEN_TOTAL_COMMANDER_Path.BAT",
+		"/C/CASA/LTT/ANALISI/SublimeText_Analisi/FORM/AAGESTFrm01_N01_GESTIONI/AAGESTFrm01_N01_GESTIONI.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/CIVILIA_ANALISI_SUBLIME_TEXT/FORM/CIVILIA_FrmTb01_01_ATTI_FORMALI_TMP_DaFile_xls_TMP.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/RELAZIONE_2021_2022.MD",
+		"/C/CASA/LINGUAGGI/DOS/DOS_PROGETTI/DOS_PROGETTI.MD",
+		"/C/CASA/LINGUAGGI/CPP/CPP.MD",
+		"/C/Program Files/WinRAR/Licenza.Txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP./NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.md",
+		"/C/CASA/LINGUAGGI/ACCESS/ACCESS_PROGETTI_MDB/GUIDA_DI_RIFERIMENTO_OGGETTI_ACCESS.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.sublime-workspace",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/NUMERI_TELEFONICI_Dipendenti in Servizio.txt",
+		"/C/CASA/LINGUAGGI/ZIP/RAR/RAR_MANUALE_ITALIANO.TXT",
+		"/C/TMP/TMP_oggi/MEMO_7_2021.MD",
+		"/C/TMP/TMP_oggi/RAR_MANUALE_ITALIANO.TXT",
+		"/C/TMP/TMP_oggi/DA_SISTEMARE/GE_OGGETTI_DB_MDB_(StudioFiltroForEach).mdb",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/PROJECT_MENU_GESTIONE_SublimeText_Project.sublime-project",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/MENU_GESTIONE_SublimeText.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/MENU_GESTIONE/MENU_GESTIONE_SUBLIME_TEXT_ANALISI/MENU_GESTIONE_SublimeText_Project.sublime-workspace",
+		"/C/TMP/TMP_oggi/DA_PROTOCOLLARE/MODELLI_AVVOCATURA_RISPOSTE/GIZA/MEMO_7_2021.txt",
+		"/C/CASA/CDM/MEMO_7_2021.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_12_GRUPPO_ATTO.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_11_GRUPPO_ANNO.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/TABELLE/CIVILIA_Tb01_ATTI.MD",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/FORM/CIVILIA_FrmTb01_00_GE_ATTI.MD",
+		"/C/TMP/TMP_oggi/CONDOMINIO_QUADRINI/CONDOMINIO_QUADRINI_ATTI/Condominio_QUADRINI_ATTI_NOCE",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/LLPP_ARCHIVI_MDB/CIVILIA_GESTIONE/CIVILIA_TEXT_ANALISI/SUBLIME_TEXT_ANALISI/PROGETTO_SUBLIME_TEXT/CIVILIA_SUBLIME_TEXT_ANALISI.sublime-project",
+		"/C/TMP/TMP_oggi/DA_SISTEMARE/COPIE_DISCARICA_LA_PROVINCIA",
+		"/C/TMP/TMP_oggi/DA_PUBBLICARE/LPDD_200_2021_DET_1409_2021/DET_1409_2021_TEXT.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_Tb02_ElencoGiornaliere/ANALISI_SUBLIME_TXT/PRES3000_Tb02_ElencoGiornaliere.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/MIRABELLA",
+		"/C/TMP/TMP_oggi/INPS/RELAZIONE.txt",
+		"/C/TMP/TMP_oggi/DA_PUBBLICARE/LPDD_200_2021_DET_1409_2021/DET_XXX_2022_TEXT.txt",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/85_EX_DISCARICA_LE_LAME/40_EXDISCARICA_APQ8/FASCICOLO_03/03.00_ELENCO_EX_DISCARICA_COPIA_RENDICONTAZIONE_A3_FASCICOLO_03.txt",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/85_EX_DISCARICA_LE_LAME/40_EXDISCARICA_APQ8/FASCICOLO_02/02.00_ELENCO_EX_DISCARICA_COPIA_RENDICONTAZIONE_A3_FASCICOLO_02.txt",
+		"/Y/LAVORI_PUBBLICI_FINO_AL_30_09_2019/Valter/OPERE_PUBBLICHE/85_EX_DISCARICA_LE_LAME/40_EXDISCARICA_APQ8/FASCICOLO_01/01.00_ELENCO_EX_DISCARICA_COPIA_RENDICONTAZIONE_A3_FASCICOLO_01.txt",
+		"/C/GESTIONI/GESTIONE_LLPP/25_GESTIONE_LLPP/PRES3000_GESTIONE/ARCHIVI_PRES3000/PRES3000_Tb02_ElencoGiornaliere/ANALISI_SUBLIME_TXT/WORKSPACE_Giornaliere.sublime-workspace",
+		"/C/TMP/TMP_oggi/DA_SCANSIONARE_EX_DICARICA_REGIONE/FASCICOLO_03/03.00_ELENCO_EX_DISCARICA_COPIA_RENDICONTAZIONE_A3_FASCICOLO_03.txt",
+		"/C/TMP/TMP_oggi/DA_SCANSIONARE_EX_DICARICA_REGIONE/FASCICOLO_03/03.00_ELENCO_EX_DISCARICA_APRI_TUTTO.bat",
+		"/C/TMP/TMP_oggi/DA_SISTEMARE/ARCH_NOCE_FIRME_CANCELLATE/ricerca_3.txt"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 107.2,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Cargo.toml",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 236.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Project_Prova_connessione.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\CASA\\LINGUAGGI\\RUST_PROGETTI\\RUST_PURO\\RUST_PURO_CAP_01_10\\Project_CAP_01-10.sublime-project"
+			]
+		],
+		"width": 390.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -58,6 +58,8 @@ extern crate odbc;
 // Use this crate and set environmet variable RUST_LOG=odbc to see ODBC warnings
 extern crate env_logger;
 extern crate odbc_safe;
+
+use std::io;
 use odbc::*;
 
 //#[allow(unused_imports)]        //permetto l'uso di use std altrimenti da errore
@@ -74,6 +76,10 @@ fn main() {
         Ok(()) => println!("Success"),
         Err(diag) => println!("Error: {}", diag),
     }
+
+    //prende l'input con lo scopo di ritardare la chiusura della shell
+    println!("Premere invio per terminare.");
+    io::stdin().read_line(&mut String::new()).unwrap();
 }
 
 //funzione connessione + diagnostica
@@ -94,7 +100,8 @@ fn connect() -> std::result::Result<(), DiagnosticRecord> {
     // }
 
     /* ALTERNATIVA = uso stringa di connessione costante*/
-    let mybuffer = "Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=./PRES3000_N25_PIANTA_ORGANICA.mdb;".to_owned(); // to_owned() converte &str in String
+    let mybuffer = r#"Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=c:\CASA\LINGUAGGI\RUST_PROGETTI\RUST_PURO\RUST_PURO_COLLEGA_ACCESS\archivi_mdb\PRES3000_N25_PIANTA_ORGANICA.mdb;"#.to_owned(); // to_owned() converte &str in String
+
 
     //attivo la conenessione passando il buffer
     let conn = env.connect_with_connection_string(&mybuffer)?;
