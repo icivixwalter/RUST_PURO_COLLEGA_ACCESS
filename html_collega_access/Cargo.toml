@@ -10,8 +10,6 @@ edition = "2021"
 actix-web = "4"
 env_logger = "0.10"
 odbc = "0.17"
-odbc-safe = "0.6.0"
-					 # aggiorno con questo comando: cargo add odbc-safe
-
-
+odbc-safe = "0.5.0" # aggiorno con questo comando: cargo add odbc-safe
+tokio={version = "1", features = ["full"]}
 

@@ -6,16 +6,21 @@ extern crate actix_web;
 use actix_web::{web, App, HttpServer, HttpResponse};
 use odbc::*;
 use odbc_safe::AutocommitOn;
+use tokio::time::*;
 
-fn main() {
+
+#[tokio::main]
+async fn main() {
+    //copiato per tokio
+    sleep(Duration::from_secs(5)).await;
     env_logger::init();
     HttpServer::new(|| {
         App::new().route("/", web::get().to(handle_request))
     })
     .bind("127.0.0.1:8080")
     .unwrap()
-    .run()
-    .unwrap();
+    .run().await.unwrap();
+    
 }
 
 async fn handle_request() -> HttpResponse {

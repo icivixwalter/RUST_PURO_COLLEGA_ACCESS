@@ -567,7 +567,8 @@ dependencies = [
  "actix-web",
  "env_logger",
  "odbc",
- "odbc-safe 0.6.0",
+ "odbc-safe",
+ "tokio",
 ]
 
 [[package]]
@@ -721,6 +722,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "num_cpus"
+version = "1.16.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4161fcb6d602d4d2081af7c3a45852d875a03dd337a6bfdd6e06407b61342a43"
+dependencies = [
+ "hermit-abi",
+ "libc",
+]
+
+[[package]]
 name = "object"
 version = "0.32.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -738,7 +749,7 @@ dependencies = [
  "doc-comment",
  "encoding_rs",
  "log",
- "odbc-safe 0.5.0",
+ "odbc-safe",
  "odbc-sys",
 ]
 
@@ -747,15 +758,6 @@ name = "odbc-safe"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f45de02ae2d07b38a7ef0e64139d971b1590d834c2ec089132d0eb49678e7e5a"
-dependencies = [
- "odbc-sys",
-]
-
-[[package]]
-name = "odbc-safe"
-version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5de6da59e8296b3d1d57926b4e4b40237640d4c409c34cba28c4bc778531bcd6"
 dependencies = [
  "odbc-sys",
 ]
@@ -1142,11 +1144,24 @@ dependencies = [
  "bytes",
  "libc",
  "mio",
+ "num_cpus",
  "parking_lot",
  "pin-project-lite",
  "signal-hook-registry",
  "socket2",
+ "tokio-macros",
  "windows-sys",
+]
+
+[[package]]
+name = "tokio-macros"
+version = "2.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5b8a1e28f2deaa14e508979454cb3a223b10b938b45af148bc0986de36f1923b"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.39",
 ]
 
 [[package]]
