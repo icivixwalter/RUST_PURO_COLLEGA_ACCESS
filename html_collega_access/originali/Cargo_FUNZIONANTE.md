@@ -1,4 +1,3 @@
-Cargo_FUNZIONANTE.md
 [package]
 name = "html_collega_access"
 version = "0.1.0"
@@ -6,8 +5,11 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+
 [dependencies]
-odbc = "0.17.0"
-odbc-sys = "0.8.2"
-odbc-safe = "0.5.0"
-env_logger = "0.7"
+actix-web = "4"
+env_logger = "0.10"
+odbc = "0.17"
+odbc-safe = "0.5.0" # aggiorno con questo comando: cargo add odbc-safe
+tokio={version = "1", features = ["full"]}
+

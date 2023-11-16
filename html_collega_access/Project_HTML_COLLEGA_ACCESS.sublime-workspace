@@ -31,7 +31,7 @@
 						"characters": "d"
 					},
 					"AQAAAL8AAAAAAAAAvwAAAAAAAAABAAAAZA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAADwvw"
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					12,
@@ -41,15 +41,36 @@
 						"characters": "cd.."
 					},
 					"BAAAAL4AAAAAAAAAvgAAAAAAAAABAAAALr0AAAAAAAAAvQAAAAAAAAABAAAALrwAAAAAAAAAvAAAAAAAAAABAAAAZLsAAAAAAAAAuwAAAAAAAAABAAAAYw",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAL8AAAAAAAAAvwAAAAAAAAAAAAAAAADwvw"
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAL8AAAAAAAAAvwAAAAAAAAAAAAAAAADwvw"
 				]
 			],
 			"settings":
 			{
-				"buffer_size": 2290,
+				"buffer_size": 2443,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "Microsoft Windows [Versione 10.0.19045.3570]                                                                               \n(c) Microsoft Corporation. Tutti i diritti sono riservati.                                                                 \n                                                                                                                           \nC:\\CASA\\LINGUAGGI\\RUST_PROGETTI\\RUST_PURO\\RUST_PURO_COLLEGA_ACCESS\\html_collega_access>dir\n Il volume nell'unità C non ha etichetta.                                                                                  \n Numero di serie del volume: DE7C-C957                                                                                     \n                                                                                                                           \n Directory di C:\\CASA\\LINGUAGGI\\RUST_PROGETTI\\RUST_PURO\\RUST_PURO_COLLEGA_ACCESS\\html_collega_access                       \n                                                                                                                           \n14/11/2023  22:11    <DIR>          .                                                                                      \n14/11/2023  22:11    <DIR>          ..                                                                                     \n13/11/2023  10:22                 9 .gitignore                                                                             \n14/11/2023  21:58            35.333 Cargo.lock                                                                             \n14/11/2023  21:58               354 Cargo.toml                                                                             \n13/11/2023  11:40    <DIR>          originali                                                                              \n13/11/2023  10:59                55 Project_HTML_COLLEGA_ACCESS.sublime-project                                            \n15/11/2023  21:12            10.503 Project_HTML_COLLEGA_ACCESS.sublime-workspace                                          \n14/11/2023  22:12                 3 query                                                                                  \n14/11/2023  23:22    <DIR>          src                                                                                    \n13/11/2023  12:42    <DIR>          target                                                                                 \n               6 File         46.257 byte                                                                                  \n               5 Directory  24.662.155.264 byte disponibili                                                                \n                                                                                                                           \nC:\\CASA\\LINGUAGGI\\RUST_PROGETTI\\RUST_PURO\\RUST_PURO_COLLEGA_ACCESS\\html_collega_access>cargo run\n    Finished dev [unoptimized + debuginfo] target(s) in 16.53s                                                             \n     Running `target\\debug\\html_collega_access.exe`                                                                        \n",
+			"settings":
+			{
+				"buffer_size": 3164,
+				"line_ending": "Windows",
+				"name": "  - cargo  run",
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					34,
+					1,
+					"terminus_render",
+					null,
+					"CQAAAGQLAAAAAAAAogsAAAAAAAAAAAAAogsAAAAAAADfCwAAAAAAAAAAAADfCwAAAAAAAOALAAAAAAAAAAAAAOALAAAAAAAAEwwAAAAAAAAAAAAAEwwAAAAAAABbDAAAAAAAAAAAAABbDAAAAAAAAFwMAAAAAAAAAAAAAFwMAAAAAAAAXAwAAAAAAAAAAAAAXAwAAAAAAADXDAAAAAAAAAAAAABcDAAAAAAAAFwMAAAAAAAAewAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA",
+					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -227,15 +248,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2290,
+						"buffer_size": 2443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								617,
-								617
+								450,
+								436
 							]
 						],
 						"settings":
@@ -249,6 +270,89 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3164,
+								3164
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "C:\\CASA\\LINGUAGGI\\RUST_PROGETTI\\RUST_PURO\\RUST_PURO_COLLEGA_ACCESS\\html_collega_access",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 2,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"cmd.exe"
+								],
+								"cwd": "C:\\CASA\\LINGUAGGI\\RUST_PROGETTI\\RUST_PURO\\RUST_PURO_COLLEGA_ACCESS\\html_collega_access",
+								"default_title": "Command Prompt",
+								"env":
+								{
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": "Terminus",
+								"show_in_panel": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 0.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}

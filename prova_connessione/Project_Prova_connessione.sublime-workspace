@@ -39,7 +39,7 @@
 						"characters": "cd.."
 					},
 					"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					4,
@@ -49,7 +49,7 @@
 						"characters": "\n"
 					},
 					"AQAAAAQAAAAAAAAABQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					5,
@@ -59,7 +59,7 @@
 						"characters": "cd.."
 					},
 					"BAAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					6,
@@ -69,8 +69,19 @@
 						"characters": "\n"
 					},
 					"AQAAAAkAAAAAAAAACgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
 				]
+			]
+		},
+		{
+			"file": "src/main.rs",
+			"settings":
+			{
+				"buffer_size": 3537,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
 			]
 		}
 	],
@@ -262,7 +273,6 @@
 				{
 					"buffer": 0,
 					"file": "Cargo.toml",
-					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
@@ -283,6 +293,38 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main.rs",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2031,
+								2031
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
