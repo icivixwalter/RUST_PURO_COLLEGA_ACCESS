@@ -1,3 +1,5 @@
+#![allow(unused_must_use, dead_code)]
+
 // TODO: Importante: Per connettersi a un qualsiasi DB Access bisogna PRIMA installare
 // la versione opportuna (x64) di AccessDatabaseEngine
 // da https://www.microsoft.com/en-us/download/details.aspx?id=54920
@@ -59,6 +61,10 @@ extern crate odbc;
 extern crate env_logger;
 extern crate odbc_safe;
 
+//per scrivere sul file
+use std::fs::File;
+use std::io::Write;
+
 use std::io;
 use odbc::*;
 
@@ -71,11 +77,31 @@ use odbc_safe::AutocommitOn;
 fn main() {
     //inizializzo la connessione
     env_logger::init();
-    //select conessione ok or error
-    match connect() {
-        Ok(()) => println!("Success"),
-        Err(diag) => println!("Error: {}", diag),
-    }
+
+
+    let env = create_environment_v3().map_err(|e| e.expect("Impossibile usare env")).expect("errore creazione environment");
+
+    /* ALTERNATIVA = uso stringa di connessione costante*/
+    let mybuffer = r#"Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=.\PRES3000_N25_PIANTA_ORGANICA.mdb;"#; // to_owned() converte &str in String
+    // let mybuffer = r#"{Microsoft Access Driver (*.mdb, *.accdb)};        DBQ=c:\CASA\LINGUAGGI\RUST_PROGETTI\RUST_PURO\RUST_PURO_COLLEGA_ACCESS\archivi_mdb\PRES3000_N25_PIANTA_ORGANICA.mdb;"#;
+
+    //attivo la conenessione passando il buffer
+    let Ok(conn) = env.connect_with_connection_string(mybuffer) else {
+        panic!("errore di connessione");
+    };
+
+    //recupero la stringa query 
+    //01
+    let (my_query, my_file_name) = query_tutti_campi();
+    
+    //02
+    //let my_query: String = query_campo_memo();
+    
+    //03
+    // let my_query: String = query_senza_campo_memo()
+
+    //se ho la connessione esegui la query
+    execute_statement(&my_query, &my_file_name,&conn);
 
     //prende l'input con lo scopo di ritardare la chiusura della shell
     println!("Premere invio per terminare.");
@@ -83,7 +109,7 @@ fn main() {
 }
 
 //funzione connessione + diagnostica
-fn connect() -> std::result::Result<(), DiagnosticRecord> {
+/*fn connect<'env>() -> std::result::Result<&'env Connection<'env, AutocommitOn>, DiagnosticRecord> {
     //assegna a env un ambiente odbc
     let env = create_environment_v3().map_err(|e| e.unwrap())?;
 
@@ -100,16 +126,20 @@ fn connect() -> std::result::Result<(), DiagnosticRecord> {
     // }
 
     /* ALTERNATIVA = uso stringa di connessione costante*/
-    let mybuffer = r#"Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=c:\CASA\LINGUAGGI\RUST_PROGETTI\RUST_PURO\RUST_PURO_COLLEGA_ACCESS\archivi_mdb\PRES3000_N25_PIANTA_ORGANICA.mdb;"#.to_owned(); // to_owned() converte &str in String
+    let mybuffer = r#"Driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ=c:\CASA\LINGUAGGI\RUST_PROGETTI\RUST_PURO\RUST_PURO_COLLEGA_ACCESS\archivi_mdb\PRES3000_N25_PIANTA_ORGANICA.mdb;"#; // to_owned() converte &str in String
 
 
     //attivo la conenessione passando il buffer
-    let conn = env.connect_with_connection_string(&mybuffer)?;
-    execute_statement(&conn)
-}
+    return Ok(env.connect_with_connection_string(mybuffer)?);
+}*/
 
 //questa funzione esegue una query qualsiasi attenzione viene utilizzato 'env = life time delle fuzione e dell'oggetto
-fn execute_statement<'env>(conn: &Connection<'env, AutocommitOn>) -> Result<()> {
+fn execute_statement<'env>(
+    query: &str, 
+    nome_file: &str, 
+    conn: &Connection<'env, AutocommitOn>
+    ) -> Result<()> {
+    
     // Crea un nuovo Statement (comando SQL vuoto) a partire dalla connessione passata come parametro.
     let stmt = Statement::with_parent(conn)?;
 
@@ -144,24 +174,36 @@ fn execute_statement<'env>(conn: &Connection<'env, AutocommitOn>) -> Result<()> 
 
     */
 
-    //todo: queyr su tabella ma non funzione per i caratteri accententati tipo Scirè Calabrisotto Andrea oppure De Podestà Emanuela
-    let sql_text = "SELECT * FROM DIPENDENTI ORDER BY DIPENDENTI.ID_DIPEN_lng;".to_owned();
+    //let nome_tabella="LLPP_ATTI_Tb01_Gestione";
+    
 
-    // let sql_text = "
-    // SELECT DIPENDENTI.ID_DIPEN_lng,
-    // DIPENDENTI.DENOMINAZIONE_s,
-    // DIPENDENTI.COGNOME_S,
-    // DIPENDENTI.NOME_S,
-    // DIPENDENTI.INIZIALI_DIP_S
-    // FROM DIPENDENTI
-    // ORDER BY DIPENDENTI.ID_DIPEN_lng
-    // WITH OWNERACCESS OPTION;".to_owned();
+
+//    let sql_text = format!("SELECT LLPP_ATTI_Tb01_Gestione.IDGestione, LLPP_ATTI_Tb01_Gestione.CodPratica_s, 
+//                            LPP_ATTI_Tb01_Gestione.NroPratica_i, LLPP_ATTI_Tb01_Gestione.AnnoCodPratica_i, 
+//                            LPP_ATTI_Tb01_Gestione.OggettoAtto_m, LLPP_ATTI_Tb01_Gestione.CodOpera_s, 
+//                            LPP_ATTI_Tb01_Gestione.DescrCodOpera_s
+//                            ROM {nome_tabella}
+//                            HERE (((LLPP_ATTI_Tb01_Gestione.IDGestione)=20809 
+//                            r (LLPP_ATTI_Tb01_Gestione.IDGestione)=20818 Or
+//                            (LLPP_ATTI_Tb01_Gestione.IDGestione)=20649 Or
+//                            (LLPP_ATTI_Tb01_Gestione.IDGestione)=20834 Or 
+//                            (LLPP_ATTI_Tb01_Gestione.IDGestione)=19748));");
+//
+//
+//
+
+     // Apre un file in modalità di scrittura, creandolo se non esiste
+    let mut file = File::create(format!("{nome_file}.csv")).unwrap();
+
+    
+
+
 
     //QUERY FISSA = attenzione con valori null nei campi da errore
     // eseguo la query scritta da linea di comando con exec_direct()
     // costrutto match con due rami: Data(statement) e NoData(_)
     //attenzione il ? = significa che in caso di errore ritorna alla funzione chiamante l'errore.
-    match stmt.exec_direct(&sql_text)? {
+    match stmt.exec_direct(query)? {
         // Se ci sono dati, li stampo in output
         Data(mut stmt) => {
             // Stampo ogni colonna separando con uno spazio
@@ -174,12 +216,21 @@ fn execute_statement<'env>(conn: &Connection<'env, AutocommitOn>) -> Result<()> 
 
                     match cursor.get_data::<&str>(i as u16)? {
                         // se ci sono dati nella cella, stampo con uno spazio davanti per separare.
-                        Some(val) => print!(" {}", val),
+                        Some(val) => {
+                            // Scrive dei dati nel file
+                            file.write_all(format!("\"{val}\";").as_bytes()).expect("errore impossibile scrivere sul file");
+                            print!("\"{val}\";");
+                        }
                         // se non ci sono dati nella cella, stampo la parola NULL (valore nullo)
-                        None => print!(" NULL"),
+                        None => {
+                            // Scrive dei dati nel file
+                            file.write_all(b"NULL;").expect("errore impossibile scrivere sul file");
+                            print!("NULL;");
+                        }
                     }
                 }
                 // vado a capo
+                file.write_all(b"\n").expect("errore impossibile scrivere sul file");
                 println!("");
             }
         }
@@ -192,3 +243,43 @@ fn execute_statement<'env>(conn: &Connection<'env, AutocommitOn>) -> Result<()> 
     // Restituisco Ok al chiamante. Se si arriva qui, è andato tutto bene (Ok!)
     Ok(())
 }
+
+
+/// 01
+/// tabella DIPENDENTI  TUTTI I CAMPI  ---> FUNZIONA
+/// todo: query su tabella ma non funzione per i caratteri accententati tipo Scirè Calabrisotto Andrea oppure De Podestà Emanuela
+fn query_tutti_campi() -> (String, String) {
+    return ("SELECT D.* FROM DIPENDENTI D ORDER BY D.ID;".to_string(), "File_Dipendenti_tutto".to_string());
+    // ORDER BY D.ID_DIPEN_lng
+
+}
+
+
+
+/// 02
+/// tabella DIPENDENTI  CON CAMPO MEMO ---> FUNZIONA ; 
+/// .to_owned() = da oggetto prestato trasformato in oggetto di proprieta
+fn query_campo_memo() -> (String, String) {
+    return
+    (
+        "SELECT D.ID, D.COGNOME_S, D.NOME_S, D.INIZIALI_DIP_S, D.MEMO_m 
+         FROM DIPENDENTI D
+         WHERE (((D.ID)<7));".to_owned(),
+        "File_Dipendenti_campo_memo".to_owned()
+    );
+}
+
+
+/// 03
+fn query_senza_campo_memo() -> (String, String) {
+    return 
+    (
+        "SELECT  D.ID_DIPEN_lng, D.DENOMINAZIONE_s, D.COGNOME_S, D.NOME_S, D.INIZIALI_DIP_S
+         FROM DIPENDENTI D
+         ORDER BY D.ID_DIPEN_lng
+         WITH OWNERACCESS OPTION;".to_owned(),
+        "File_Dipendenti_senza_campo_memo".to_owned()
+    );
+}
+
+
