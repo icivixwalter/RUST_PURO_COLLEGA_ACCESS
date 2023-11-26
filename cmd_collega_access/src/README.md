@@ -115,7 +115,7 @@ Note.md
 
             inoltre tutto il tutorial di rust si trova qui:
                 START "APRI RUST TUTORIAL" call "c:\CASA\LINGUAGGI\RUST_TUTORIAL\RUST_TUTORIAL.sublime-project"
-  CMDCMD
+    CMDCMD
 
 
             COMANDI_RUST
@@ -136,6 +136,18 @@ Note.md
                     in Target/Release.cargo build 
 
                         cargo build --release
+    ERRORI_RUST
+        ERRORE NELLA QUERY - ERRORE ODBC
+            Quando compare questo campo manca la query costruita è sbagliata, di solito nella query precostituita
+            viene indicato un campo inesistene.
+                    
+                    @ERRORE@ODBC_(errore di @connessione perche la query STATA costruita CON un @campo @inesistente)
+
+            L'errore consiste nel fatto che odbc si aspetta un parametro e la quary si basa su un campo che non esiste, occorre correggerlo.
+
+                [2023-11-26T16:06:38Z ERROR odbc::result] State: 07002, Native error: -3010, Message: [Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.             
+
+Premere invio per terminare.  
 */
 
 

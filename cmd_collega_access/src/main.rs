@@ -37,15 +37,14 @@ fn main() {
         panic!("errore di connessione");
     };
 
-    //recupero la stringa query 
-    //01
-    let (my_query, my_file_name) = query_tutti_campi();
+    //@funzioni@scegli@la.@query_(da applicare decommentando la f    // LE QUERY DA APPLICARE = query di tutti i campi, la query con campi @memo 
+    //recupero la stringa query  unzione e commettando quelle che  non interessa )
+    //@chiama@la@query@01    ......    let (my_query, my_file_name) = query_tutti_campi();
     
-    //02
-    //let my_query: String = query_campo_memo();
+    //@chiama@la@query@02    .....     let (my_query, my_file_name) = query_campo_memo();
     
-    //03
-    // let my_query: String = query_senza_campo_memo()
+    //@chiama@la@query@03    .....     
+    let (my_query, my_file_name) = query_senza_campo_memo();
 
     //se ho la connessione esegui la query
     execute_statement(&my_query, &my_file_name,&conn);
@@ -54,6 +53,8 @@ fn main() {
     println!("Premere invio per terminare.");
     io::stdin().read_line(&mut String::new()).unwrap();
 }
+
+
 
 
 //questa funzione esegue una query qualsiasi attenzione viene utilizzato 'env = life time delle fuzione e dell'oggetto
@@ -123,38 +124,39 @@ fn execute_statement<'env>(
 // LE FUNZIONI DELLE QUERY
 //-----------------------------------------------------------------------------------------------------//
 
-    /// 01
+    /// @LA@QUERY@01
     /// tabella DIPENDENTI  TUTTI I CAMPI  ---> FUNZIONA
     /// query su tabella e funziona con gli apostrofi ma bisogna vedere se funziona per i caratteri accententati tipo Scirè Calabrisottò Andrea oppure De Podestà Emanuela
     /// TODO: finire di controllare le vocali con accenti PERCHE' ORA DANNO ERROE: à,ò,ù,è,é
     fn query_tutti_campi() -> (String, String) {
         // ORDER BY D.ID_DIPEN_lng attenzione se manca il field viene dato un errore di connessione odb, ma in realta il campo non esiste.
-        return ("SELECT D.* FROM DIPENDENTI D ORDER BY D.ID;".to_string(), "File_Dipendenti_tutto".to_string()); }
+        return ("SELECT D.* FROM DIPENDENTI D ORDER BY D.ID_lng;".to_string(), 
+                "File_Dipendenti_tutto".to_string()); }
 
 
 
-    /// 02
-    /// TABELL DIPENDENTI  CON CAMPO MEMO ---> FUNZIONA ; 
+    /// @LA@QUERY@02
+    /// TABELLA DIPENDENTI  CON CAMPO MEMO ---> FUNZIONA ; 
     /// .to_owned() = da oggetto prestato trasformato in oggetto di proprieta
+    ///RETURN = vengono restituiti due oggetti; 1) la struttura della query; 2) il nome del file.csv da scrivere
     fn query_campo_memo() -> (String, String) {
         return
         (
-            "SELECT D.ID, D.COGNOME_S, D.NOME_S, D.INIZIALI_DIP_S, D.MEMO_m 
+            "SELECT D.ID_lng, D.COGNOME_S, D.NOME_S, D.INIZIALI_DIP_S, D.MEMO_m 
              FROM DIPENDENTI D
              WHERE (((D.ID)<7));".to_owned(),
             "File_Dipendenti_campo_memo".to_owned()); }
 
 
-    /// 03
+    /// @LA@QUERY@03
     fn query_senza_campo_memo() -> (String, String) {
         return 
         (
-            "SELECT  D.ID_DIPEN_lng, D.DENOMINAZIONE_s, D.COGNOME_S, D.NOME_S, D.INIZIALI_DIP_S
+            "SELECT  D.ID_lng, D.DENOMINAZIONE_s, D.COGNOME_S, D.NOME_S, D.INIZIALI_DIP_S
              FROM DIPENDENTI D
-             ORDER BY D.ID_DIPEN_lng
+             ORDER BY D.ID_lng
              WITH OWNERACCESS OPTION;".to_owned(),
-            "File_Dipendenti_senza_campo_memo".to_owned()
-        );}
+            "File_Dipendenti_senza_campo_memo".to_owned());}
 
 // *** fine *** ///
 //-----------------------------------------------------------------------------------------------------//
